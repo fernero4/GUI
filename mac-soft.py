@@ -33,8 +33,7 @@ import subprocess
 import webbrowser as wb
 import random
 
-IMAG_PATH="C:/Users/ferna/Downloads/python/GUI/images/"
-
+IMAG_PATH="C:/Users/ferna/Downloads/python/mac soft/GUI/images/"
 
 root=Tk()
 root.title("mac soft Tool")
@@ -169,7 +168,7 @@ def weather():
     app1.configure(bg="#57adff")
     app1.resizable(False, False)
 
-    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/GUI/apps/"
+    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/mac soft/GUI/apps/"
 
     def getWeather():
         city=textField.get()
@@ -323,7 +322,7 @@ def weather():
 
 #clock app
 def Clock_app():
-    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/GUI/apps/"
+    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/mac soft/GUI/apps/"
     app2=Toplevel()
     app2.geometry("850x110+300+10")
     app2.title("Clock")
@@ -350,7 +349,7 @@ def Clock_app():
 #calendar app
 
 def Calendar_app():
-    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/GUI/apps/"
+    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/mac soft/GUI/apps/"
 
     app3=Toplevel()
     app3.geometry("300x300+-10+10")
@@ -429,7 +428,7 @@ def mode():
 ######################################## app5 Random dices ##################################################
 
 def game():
-    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/GUI/apps/"
+    IMAG_PATH_APPS="C:/Users/ferna/Downloads/python/mac soft/GUI/apps/"
 
     app5=Toplevel()
     app5.geometry("700x600+1170+170")
@@ -531,13 +530,5 @@ app9.place(x=270, y=110)
 app10_image=PhotoImage(file=IMAG_PATH+"close3.png")
 app10=Button(RHB, image=app10_image, command=close_apps)
 app10.place(x=355, y=110)
-
-
-
-
-
-
-
-
 
 root.mainloop()
